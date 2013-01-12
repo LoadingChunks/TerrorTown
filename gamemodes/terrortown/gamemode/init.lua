@@ -715,14 +715,14 @@ function CheckForMapSwitch()
       end
    end
 
-   if switchmap then
-      timer.Stop("end2prep")
-      timer.Simple(15, game.LoadNextMap)
-   elseif ShouldMapSwitch() then
-      LANG.Msg("limit_left", {num = rounds_left,
-                              time = math.ceil(time_left / 60),
-                              mapname = nextmap})
-   end
+--   if switchmap then
+--      timer.Stop("end2prep")
+--      timer.Simple(15, game.LoadNextMap)
+--   elseif ShouldMapSwitch() then
+--      LANG.Msg("limit_left", {num = rounds_left,
+--                              time = math.ceil(time_left / 60),
+--                              mapname = nextmap})
+--   end
 end
 
 function EndRound(type)
