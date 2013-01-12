@@ -22,7 +22,7 @@ models/
 *.cache
 particles/
 resource/
-sounds/
+sound/
 stats.txt
 steam.inf
 *.db
