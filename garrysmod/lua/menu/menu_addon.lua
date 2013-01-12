@@ -1,4 +1,0 @@
-
-
-
-addon = WorkshopFileBase( "addon", {} )

@@ -22,7 +22,9 @@ models/
 *.cache
 particles/
 resource/
+shaders/
 sound/
+garrysmod/
 stats.txt
 steam.inf
 *.db
